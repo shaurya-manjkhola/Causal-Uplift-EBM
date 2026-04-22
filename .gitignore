@@ -1,0 +1,16 @@
+# Data and Models (Keep the repo light)
+data/
+models/*.pkl
+
+# Python junk
+__pycache__/
+*.py[cod]
+.venv/
+env/
+venv/
+
+# Notebooks
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
