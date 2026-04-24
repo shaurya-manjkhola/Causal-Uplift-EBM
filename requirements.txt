@@ -1,0 +1,17 @@
+# requirements.txt
+# -----------------
+# Install everything with:  pip install -r requirements.txt
+#
+# Versions are pinned to prevent API breakage between teammates.
+# If you hit a conflict on your machine, try creating a fresh venv first:
+#   python -m venv .venv && source .venv/bin/activate
+
+pandas>=1.5.0,<3.0.0
+numpy>=1.23.0,<2.0.0
+scikit-learn>=1.2.0,<2.0.0
+xgboost>=1.7.0,<3.0.0
+interpret>=0.4.0,<0.7.0        # ExplainableBoostingClassifier lives here
+shap>=0.42.0,<0.47.0
+scikit-uplift>=0.5.0,<0.7.0   # Qini curve, AUQC
+matplotlib>=3.6.0,<4.0.0
+joblib>=1.2.0
