@@ -1,7 +1,7 @@
-Metric,XGB T-Learner,EBM T-Learner
-AUQC,289.2486,300.4245
-AUQC 95% CI lower,215.4316,224.2935
-AUQC 95% CI upper,349.3892,357.4098
-Uplift@10%,0.0928,0.1023
-Uplift@20%,0.0829,0.0785
-Uplift@30%,0.0734,0.0818
+Metric,XGB T-Learner (Baseline),EBM T-Learner (Glass-Box),EBM X-Learner (Member 2 Optimized)
+AUQC (Overall Performance),289.2486,300.4245,302.3859
+AUQC 95% CI lower,215.4316,224.2935,224.3036
+AUQC 95% CI upper,349.3892,357.4098,356.8783
+Uplift@10% (Top Decile),0.0928,0.1023,0.1077
+Uplift@20%,0.0829,0.0785,0.0928
+Uplift@30%,0.0734,0.0818,0.0823
